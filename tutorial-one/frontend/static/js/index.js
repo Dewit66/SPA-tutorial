@@ -11,7 +11,7 @@ const router = async () => {
     const routes = [
         {path: "/", view: Dashboard},
         {path: "/posts", view: Posts},
-        //{path: "/settings", view: () => console.log("Viewing Settings")}
+        {path: "/settings", view: Settings}
     ];
 
 //Test each route for potential match
