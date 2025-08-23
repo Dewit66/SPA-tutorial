@@ -28,7 +28,7 @@ const router = async () => {
         match = {
             route: routes[0],
             //only if I were to follow the second video
-            //isMatch: true
+            isMatch: true
 
         };
     };
